@@ -1,0 +1,13 @@
+{"age": 47,
+ "sex": "male",
+ "cp": "asymtomatic",
+ "trestbps": 112,
+ "chol": 204,
+ "fbs": "false",
+ "restecg": "normal",
+ "thalach": 143,
+ "exang": "no",
+ "oldpeak": 0.1,
+ "slope": "upsloping",
+ "ca": "zero",
+ "thal": "normal"}

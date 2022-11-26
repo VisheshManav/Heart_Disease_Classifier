@@ -1,0 +1,13 @@
+{"age": 56,
+ "sex": "male",
+ "cp": "asymtomatic",
+ "trestbps": 132,
+ "chol": 184,
+ "fbs": "false",
+ "restecg": "left_ventricular_hypertrophy",
+ "thalach": 105,
+ "exang": "yes",
+ "oldpeak": 2.1,
+ "slope": "flat",
+ "ca": "one",
+ "thal": "fixed_defect"}

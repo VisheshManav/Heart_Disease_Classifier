@@ -1,0 +1,13 @@
+{"age": 60,
+ "sex": "female",
+ "cp": "typical_angina",
+ "trestbps": 150,
+ "chol": 240,
+ "fbs": "false",
+ "restecg": "normal",
+ "thalach": 171,
+ "exang": "no",
+ "oldpeak": 0.9,
+ "slope": "upsloping",
+ "ca": "zero",
+ "thal": "normal"}

@@ -3,20 +3,20 @@ import requests
 host = 'localhost:9696'
 url= f'http://{host}/predict'
 
-patient = {"age": 0.125,
-    "sex": "male",
+patient = {"age": 57,
+    "sex": "female",
     "cp": "asymtomatic",
-    "trestbps": 0.30188679245283023,
-    "chol": 0.35616438356164376,
+    "trestbps": 128,
+    "chol": 303,
     "fbs": "false",
     "restecg": "left_ventricular_hypertrophy",
-    "thalach": 0.648854961832061,
-    "exang": "yes",
+    "thalach": 159,
+    "exang": "no",
     "oldpeak": 0.0,
     "slope": "upsloping",
-    "ca": "zero",
-    "thal": "reversable_defect"
- }
+    "ca": "one",
+    "thal": "normal"
+}
 
 response = requests.post(url, json=patient).json()
 print(response)
