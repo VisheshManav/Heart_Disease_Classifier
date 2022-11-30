@@ -16,19 +16,19 @@ def home_form():
 def predict():
 
     patient = {
-        "age": request.form['age'],
-        "sex": request.form['sex'], 
-        "cp": request.form['cp'],
+        "age":      request.form['age'],
+        "sex":      request.form['sex'], 
+        "cp":       request.form['cp'],
         "trestbps": request.form['trestbps'],
-        "chol": request.form['chol'],
-        "fbs": request.form['fbs'],
-        "restecg": request.form['restecg'],
-        "thalach": request.form['thalach'],
-        "exang": request.form['exang'],
-        "oldpeak": request.form['oldpeak'],
-        "slope": request.form['slope'],
-        "ca": request.form['ca'],
-        "thal": request.form['thal']
+        "chol":     request.form['chol'],
+        "fbs":      request.form['fbs'],
+        "restecg":  request.form['restecg'],
+        "thalach":  request.form['thalach'],
+        "exang":    request.form['exang'],
+        "oldpeak":  request.form['oldpeak'],
+        "slope":    request.form['slope'],
+        "ca":       request.form['ca'],
+        "thal":     request.form['thal']
     }
 
     X = dv.transform([patient])
